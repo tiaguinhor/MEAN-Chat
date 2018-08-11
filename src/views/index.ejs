@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<title>Test</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="author" content="Tiago Rodrigo Calógero">
+
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<!--body data-ng-show="completeLoading"-->
+<body>
+	<div data-ui-view="menu"></div>
+
+	<section id="content">
+		<div class="row">
+			<div class="container">
+				<div data-ui-view></div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/libraries.min.js"></script>
+	<script src="js/script.min.js"></script>
+</body>
+</html>

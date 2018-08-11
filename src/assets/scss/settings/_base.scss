@@ -1,0 +1,32 @@
+html{
+  body{
+    font-size: 14px;
+    article{
+      margin: 20px 0;
+    }
+    button{
+      &.btn{
+        background-color: $primary;
+        &:hover{
+          background-color: $secondary;
+        }
+      }
+    }
+  }
+}
+
+//desktop
+@media #{$large-and-up}{
+}
+
+//desktop small - ipad horizontal
+@media #{$large-and-down}{
+}
+
+//medium
+@media #{$medium-and-down}{
+}
+
+//small
+@media #{$small-and-down}{
+}

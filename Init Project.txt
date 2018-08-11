@@ -1,0 +1,15 @@
+INSTALAR GERADOR EXPRESS
+npm install -g express-generator
+
+CRIAR PROJETO COM GERADOR EXPRESS
+express folder [--hogan -c sass]
+npm install
+
+INICIAR MONGODB
+mongod --dbpath 'C:\database_mongo'
+
+INSTALAR COMPONENTE PARA ASSISTIR PROJETO MEAN
+npm install -g nodemon
+
+INICIAR NODE COM WATCH NODEMON
+nodemon

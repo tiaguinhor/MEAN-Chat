@@ -1,0 +1,13 @@
+body{
+  header{
+    nav{
+      background-color: $primary;
+      padding: 0 20px;
+      .side-nav{
+        li{
+          padding: 0;
+        }
+      }
+    }
+  }
+}

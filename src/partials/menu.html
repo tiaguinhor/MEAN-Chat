@@ -1,0 +1,26 @@
+<header>
+	<nav>
+		<div class="nav-wrapper">
+			<a data-ui-sref="home" class="brand-logo center">Test</a>
+
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li data-ng-show="auth"><a data-ui-sref="home">Salas</a></li>
+				<li data-ng-hide="auth"><a data-ui-sref="user">Criar Usuário</a></li>
+				<li data-ng-hide="auth"><a data-ui-sref="login">Entrar</a></li>
+				<li data-ng-show="auth"><a data-ng-click="logout()">Sair</a></li>
+			</ul>
+
+			<!-- menu mobile-->
+			<ul id="slide-out" class="side-nav">
+				<li data-ng-show="auth"><a data-ui-sref="home">Salas</a></li>
+				<li data-ng-hide="auth"><a data-ui-sref="user">Criar Usuário</a></li>
+				<li data-ng-hide="auth"><a data-ui-sref="login">Entrar</a></li>
+				<li data-ng-show="auth"><a data-ng-click="logout()">Sair</a></li>
+			</ul>
+
+			<a href="javascript:" data-activates="slide-out" class="button-collapse right">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+	</nav>
+</header>
